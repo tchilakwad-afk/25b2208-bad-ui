@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Volume Slider</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <main class="app">
+
+        <div class="header">
+            <h1>Volume Control</h1>
+            <p class="subtitle">bad audio management system</p>
+        </div>
+        <div class="bar-section">
+            <div class="bar-wrapper" id="bad-wrapper">
+                <div class="bar-fill" id="bar-fill"></div>
+                <div class="bar-label" id="bar-label">100%</div>
+            </div>
+            <div class="bar-meta">
+                <span class="bar-meta-low">silence</span>
+                <span class="bar-meta-high">noise</span>
+            </div>
+        </div>
+        <div class="disclaimer">
+            <p>The volume naturally dies.<br>
+            Click below to adjust the volume.</p>
+        </div>
+        <button class="boost-btn" id="boost-btn">
+            Increase Volume
+        </button>
+        <div class="stats">
+            <div class="stat">
+                <span class="stat-label">current volume</span>
+                <span class="stat-value" id="stat-vol">100%</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">clicks so far</span>
+                <span class="stat-value" id="stat-clicks">0</span>
+            </div>
+        </div>
+        <p class="footnote">
+            The button increase volume by 5 units. Volume drains at 12.5 units per second.<br>
+            To maintain volume you must click approximately 2.5 times per second.
+        </p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
