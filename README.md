@@ -1,8 +1,8 @@
 # Volume Slider
 
-A small browser-based toy where you fight a losing battle against audio decay.
+A badly constructed UI component that is painly wrong and excrutiating for the user.
 
-The volume starts at 100% and constantly drains. Clicking the button adds it back in small increments. The math is not in your favor.
+The volume starts at 100% and constantly drains. Clicking the button adds it back in small increments.
 
 ## How it works
 
@@ -20,4 +20,4 @@ The bar changes color as volume drops: green, then orange, then red.
 
 ## Running it
 
-Just open `index.html` in a browser. No dependencies, no build step.
+Just open `index.html` in a browser.
